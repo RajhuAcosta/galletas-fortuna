@@ -1,0 +1,21 @@
+.app {
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+.bg1 {
+    background-image: url(/bg1.png);
+}
+
+.bg2 {
+    background-image: url(/bg2.png);
+}
+
+.bg3 {
+    background-image: url(/bg3.png);
+}
+
+.bg4 {
+    background-image: url(/bg4.png);
+}

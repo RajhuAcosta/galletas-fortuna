@@ -1,0 +1,147 @@
+@media (min-width: 320px) {
+
+  .app {
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .phraseCard {
+    display: grid;
+    grid-template-rows: 1fr auto auto;
+    row-gap: 17.7vh;
+    text-align: center;
+    align-items: center;
+    padding: 3%;
+  }
+
+  .phraseCard__title {
+    color: #cf8a0bcf;
+    font-size: 9.35vw;
+    max-width: 350px;
+    text-align: center;
+    display: block;
+    margin: 12.9vh auto 2.6vh;
+    font-family: "Fredoka", sans-serif;
+    font-weight: 700;
+    word-wrap: break-word;
+  }
+
+  .phraseCard__btn {
+    color: #893446;
+    font-size: 5vw;
+    text-align: center;
+    font-family: "Fredoka", sans-serif;
+    font-weight: 500;
+    word-wrap: break-word;
+    background-color: #ffa645;
+    border-radius: 2.5vw;
+    border: 0.9vw #893446 solid;
+    padding: 1.4vh 5vw;
+    margin: 40px auto;
+  }
+
+  .phraseCard__phrase {
+    color: #727272;
+    text-align: center;
+    font-size: 5.65vw;
+    font-family: "Fredoka", sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+    background-color: #fff;
+    border-radius: 3vw;
+    border: 0.75vw #6894b4 solid;
+    /* padding: 35px 15px; */
+    padding: 5vh 4.3vw;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .phraseCard__footer {
+    color: #727272;
+    font-size: 4.38vw;
+    text-align: center;
+    font-family: "Fredoka", sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 1.5vw;
+    display: block;
+    margin: 135px auto 10px;
+    margin: 33% auto 2%;
+    margin: 0 auto;
+    /* align-self: end; */
+    padding: 3.3% 13.4%;
+  }
+}
+
+@media (min-width: 768px) {
+  .phraseCard {
+    row-gap: 17.7vh;
+  }
+
+  .phraseCard__title {
+    font-size: 3vw;
+    margin: 7vh auto 0.4vh;
+    max-width: 300px;
+  }
+
+  .phraseCard__btn {
+    font-size: 2.3vw;
+    border-radius: 2.5vw;
+    font-weight: 400;
+    border: 0.29vw #893446 solid;
+    padding: 1.4vh 3vw;
+    margin: 40px auto;
+  }
+
+  .phraseCard__phrase {
+    font-size: 2.7vw;
+    border-radius: 3vw;
+    border: 0.3vw #6894b4 solid;
+    padding: 2vh 4.3vw;
+    margin: auto 14vw
+  }
+
+  .phraseCard__footer {
+    font-size: 2vw;
+    border-radius: 1.5vw;
+    margin: 135px auto 10px;
+    margin: 33% auto 2%;
+    margin: 0 auto;
+    padding: 1% 6%;
+  }
+}
+
+@media (min-width: 1024) {
+  .phraseCard {
+    row-gap: 17.7vh;
+  }
+
+  .phraseCard__title {
+    font-size: 9.35vw;
+    margin: 12.9vh auto 2.6vh;
+  }
+
+  .phraseCard__btn {
+    font-size: 5vw;
+    border-radius: 2.5vw;
+    border: 0.9vw #893446 solid;
+    padding: 1.4vh 5vw;
+    margin: 40px auto;
+  }
+
+  .phraseCard__phrase {
+    font-size: 5.65vw;
+    border-radius: 3vw;
+    border: 0.75vw #6894b4 solid;
+  }
+
+  .phraseCard__footer {
+    font-size: 4.38vw;
+    border-radius: 1.5vw;
+    margin: 135px auto 10px;
+    margin: 33% auto 2%;
+    margin: 0 auto;
+    padding: 3.3% 13.4%;
+  }
+}
